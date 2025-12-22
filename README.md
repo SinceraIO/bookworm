@@ -1,0 +1,3 @@
+# Bookworm - read kinesis like a bookworm
+
+To be continued...
