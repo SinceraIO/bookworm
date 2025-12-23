@@ -26,7 +26,7 @@ module Bookworm
     end
 
     def redis
-      @redis ||= Redis.new(url: ENV.fetch("REDIS_URL"))
+      @redis ||= Redis.new(url: ENV.fetch("REDIS_URL", nil))
     end
   end
 end
